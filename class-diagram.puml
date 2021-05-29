@@ -5,7 +5,7 @@ interface MemberService
 interface MemberRepository
 class MemoryMemberRepository
 
-MemberRepository <|-- MemberService
-MemberRepository <.. MemoryMemberRepository
+MemberRepository -- MemberService
+MemberRepository <|-- MemoryMemberRepository
 
 @enduml
