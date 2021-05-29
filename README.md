@@ -16,16 +16,4 @@ member service
 
 ## Class Dependencies
 
-```puml
-@startuml
-'https://plantuml.com/class-diagram
-
-interface MemberService
-interface MemberRepository
-class MemoryMemberRepository
-
-MemberRepository <|-- MemberService
-MemberRepository <.. MemoryMemberRepository
-
-@enduml
-```
+![class-diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/lcalmsky/member/master/class-diagram.puml)
