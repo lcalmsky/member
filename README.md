@@ -17,3 +17,8 @@ member service
 ## Class Dependencies
 
 ![class-diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/lcalmsky/member/master/class-diagram.puml)
+
+## How to run
+```bash
+./gradlew bootRun
+```
